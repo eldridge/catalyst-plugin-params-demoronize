@@ -1,0 +1,9 @@
+Catalyst::Plugin::Params::Demoronize is a Catalyst plugin
+that will convert non-ISO extended ASCII characters commonly
+utilized by various Microsoft products into standard ASCII.
+Additionally, it will also convert the unicode equivalents
+of these characters into standard ASCII if so configured.
+
+Inimitable mistakes cleaned up by this plugin include those
+dastardly "smartquotes" (read: dumbquotes) utilized by none
+other than Microsoft Office.
