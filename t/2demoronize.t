@@ -13,6 +13,7 @@ my $req		= new Test::MockObject;
 my $params	= {};
 
 $c->set_always(req => $req);
+$c->set_always(config => {});
 $req->set_always(params => $params);
 
 # PASS 1
