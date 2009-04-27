@@ -106,7 +106,7 @@ This can be overridden, but defaults to:
 use NEXT;
 use Encode::ZapCP1252;
 
-our $VERSION = '1.1';
+our $VERSION = '1.11';
 
 =head1 METHODS
 

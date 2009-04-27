@@ -1,5 +1,5 @@
 name:               Catalyst-Plugin-Params-Demoronize
-version:            1.1
+version:            1.11
 abstract:           convert non-ISO extended ASCII characters into sane alternatives
 license:            perl
 version_from:       lib/Catalyst/Plugin/Params/Demoronize.pm
