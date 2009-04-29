@@ -106,7 +106,7 @@ This can be overridden, but defaults to:
 use NEXT;
 use Encode::ZapCP1252;
 
-our $VERSION = '1.11';
+our $VERSION = '1.12';
 
 =head1 METHODS
 
@@ -179,6 +179,7 @@ Mike Eldridge <diz@cpan.org>
 =head1 CONTRIBUTORS
 
 Cory Watson <gphat@cpan.org>
+Chisel Wright <chisel@cpan.org>
 
 =cut
 

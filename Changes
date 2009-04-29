@@ -1,5 +1,8 @@
 Revision history for Perl extension Catalyst::Plugin::Params::Demoronize
 
+1.12 - Wed Apr 29 12:14:51 CDT 2009
+ - add unicode tests, also courtesy of Chisel
+
 1.11 - Mon Apr 27 16:02:55 CDT 2009
  - fix failing tests, thanks to the patch provided by
    Chisel Wright <chisel@cpan.org>
