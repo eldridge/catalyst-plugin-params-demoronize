@@ -17,4 +17,5 @@ MANIFEST			This list of files
 META.yml
 README
 t/1pod.t
-t/2demoronize.t
+t/2demoronize_windows1252.t
+t/3demoronize_unicode.t
