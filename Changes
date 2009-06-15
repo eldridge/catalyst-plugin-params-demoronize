@@ -1,5 +1,8 @@
 Revision history for Perl extension Catalyst::Plugin::Params::Demoronize
 
+Pending
+ - fix warnings from undefined strings
+
 1.12 - Wed Apr 29 12:14:51 CDT 2009
  - add unicode tests, also courtesy of Chisel
 
