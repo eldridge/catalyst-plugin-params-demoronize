@@ -163,6 +163,7 @@ sub _demoronize
     if(exists($config->{'replace_unicode'}) && $config->{'replace_unicode'}) {
 
         foreach my $replace (keys(%{ $config->{replace_map} })) {
+            next unless defined($str);
             $str =~ s/$replace/$config->{replace_map}->{$replace}/g;
         }
     }
