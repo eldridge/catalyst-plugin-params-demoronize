@@ -106,8 +106,6 @@ This can be overridden, but defaults to:
 use MRO::Compat;
 use Encode::ZapCP1252;
 
-our $VERSION = '1.12';
-
 =head1 METHODS
 
 =over 4
@@ -122,7 +120,7 @@ sub prepare_parameters
 {
 	my $c = shift;
 
-	my $retval = $c->next::method(@_);
+	my $retval = $c->maybe::next::method(@_);
 	my $params = $c->req->params;
 
 	foreach my $key (keys %$params) {
@@ -179,8 +177,15 @@ Mike Eldridge <diz@cpan.org>
 
 =head1 CONTRIBUTORS
 
-Cory Watson <gphat@cpan.org>
-Chisel Wright <chisel@cpan.org>
+=over 4
+
+=item * Cory Watson <gphat@cpan.org>
+
+=item * Chisel Wright <chisel@cpan.org>
+
+=item * Michele Beltrame <arthas@cpan.org>
+
+=back
 
 =cut
 

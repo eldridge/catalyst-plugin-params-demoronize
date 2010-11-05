@@ -1,7 +1,13 @@
 Revision history for Perl extension Catalyst::Plugin::Params::Demoronize
 
-Pending
- - fix warnings from undefined strings
+1.14 - Fri Nov  5 16:10:13 CDT 2010
+ - switch to MRO::Compat (RT #54653)
+ - switch to Dist::Zilla
+
+1.13 - Tue Nov 17 15:31:14 CST 2009
+ - fix warnings from undefined strings,
+   courtesy of Cory Watson <gphat@cpan.org>
+ - update MANIFEST
 
 1.12 - Wed Apr 29 12:14:51 CDT 2009
  - add unicode tests, also courtesy of Chisel
