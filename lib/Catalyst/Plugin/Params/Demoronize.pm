@@ -103,7 +103,7 @@ This can be overridden, but defaults to:
 
 =cut
 
-use NEXT;
+use MRO::Compat;
 use Encode::ZapCP1252;
 
 our $VERSION = '1.12';
@@ -122,7 +122,7 @@ sub prepare_parameters
 {
 	my $c = shift;
 
-	my $retval = $c->NEXT::prepare_parameters(@_);
+	my $retval = $c->next::method(@_);
 	my $params = $c->req->params;
 
 	foreach my $key (keys %$params) {
